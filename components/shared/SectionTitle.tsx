@@ -15,7 +15,7 @@ export default function SectionTitle({
 }: SectionTitleProps) {
     return (
         <div className={`flex items-center gap-4 ${className}`}>
-            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-cyan-400/30 to-cyan-400/80" />
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-white/30 to-white/80" />
 
             <motion.span
                 initial={{ opacity: 0, y: 10 }}
@@ -27,7 +27,7 @@ export default function SectionTitle({
                 {title}
             </motion.span>
 
-            <div className="flex-1 h-px bg-gradient-to-l from-transparent via-purple-400/30 to-purple-400/80" />
+            <div className="flex-1 h-px bg-gradient-to-l from-transparent via-white/30 to-white/80" />
         </div>
     );
 }
