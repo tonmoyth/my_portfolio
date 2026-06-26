@@ -438,7 +438,7 @@ export function About() {
         <section
             ref={sectionRef}
             id="about"
-            className="relative overflow-hidden bg-[#0A0A0A]  px-6 py-24 sm:px-10 lg:px-16"
+            className="relative overflow-hidden   px-6 py-24 sm:px-10 lg:px-16"
         >
             {/* Section label */}
             <SectionTitle title="About" />

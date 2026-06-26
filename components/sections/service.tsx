@@ -125,7 +125,7 @@ function ServiceCard({
                 className="relative h-full rounded-[28px] border border-white/[0.08] p-7 backdrop-blur-sm transition-shadow duration-300 group-hover:shadow-[0_20px_44px_-16px_rgba(0,0,0,0.45)]"
                 style={
                     {
-                        background: 'rgba(255,255,255,0.5)',
+                        background: '#ffffff66',
                         '--tilt': `${tilt}deg`,
                         animation: `service-float 4.6s ease-in-out ${floatDelay}s infinite`,
                     } as CSSProperties
